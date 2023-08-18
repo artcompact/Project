@@ -1,0 +1,38 @@
+/* Stilizare pentru tabelul de proiecte */
+.project-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+.project-table th,
+.project-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.project-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+/* Stilizare pentru link-urile către paginile de editare, ștergere și revizuire */
+.project-actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-actions a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.project-actions a:hover {
+    background-color: #ddd;
+}
